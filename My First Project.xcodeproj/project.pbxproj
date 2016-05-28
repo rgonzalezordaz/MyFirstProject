@@ -14,6 +14,9 @@
 		8C5F147D1CF9103C0057A046 /* My_First_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C5F147B1CF9103C0057A046 /* My_First_Project.xcdatamodeld */; };
 		8C5F147F1CF9103C0057A046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5F147E1CF9103C0057A046 /* Assets.xcassets */; };
 		8C5F14821CF9103C0057A046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5F14801CF9103C0057A046 /* LaunchScreen.storyboard */; };
+		8CBCF6781CF9285F00202814 /* homer-doh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBCF6751CF9285F00202814 /* homer-doh.png */; };
+		8CBCF6791CF9285F00202814 /* homero_simpson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CBCF6761CF9285F00202814 /* homero_simpson.jpg */; };
+		8CBCF67A1CF9285F00202814 /* unknow10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBCF6771CF9285F00202814 /* unknow10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		8C5F147E1CF9103C0057A046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5F14811CF9103C0057A046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5F14831CF9103C0057A046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBCF6751CF9285F00202814 /* homer-doh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homer-doh.png"; sourceTree = "<group>"; };
+		8CBCF6761CF9285F00202814 /* homero_simpson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homero_simpson.jpg; sourceTree = "<group>"; };
+		8CBCF6771CF9285F00202814 /* unknow10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknow10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 		8C5F14631CF9103C0057A046 = {
 			isa = PBXGroup;
 			children = (
+				8CBCF6741CF9285F00202814 /* Imagenes */,
 				8C5F146E1CF9103C0057A046 /* My First Project */,
 				8C5F146D1CF9103C0057A046 /* Products */,
 			);
@@ -96,6 +103,16 @@
 				8C5F14761CF9103C0057A046 /* Start.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8CBCF6741CF9285F00202814 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				8CBCF6751CF9285F00202814 /* homer-doh.png */,
+				8CBCF6761CF9285F00202814 /* homero_simpson.jpg */,
+				8CBCF6771CF9285F00202814 /* unknow10.png */,
+			);
+			path = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBCF67A1CF9285F00202814 /* unknow10.png in Resources */,
 				8C5F14821CF9103C0057A046 /* LaunchScreen.storyboard in Resources */,
 				8C5F147F1CF9103C0057A046 /* Assets.xcassets in Resources */,
 				8C5F147A1CF9103C0057A046 /* Main.storyboard in Resources */,
+				8CBCF6781CF9285F00202814 /* homer-doh.png in Resources */,
+				8CBCF6791CF9285F00202814 /* homero_simpson.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +340,7 @@
 				8C5F14881CF9103C0057A046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
